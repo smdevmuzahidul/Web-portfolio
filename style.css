@@ -1,11 +1,12 @@
 body{
+    margin: 0%;
     font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size: 50;
 }
 .name-highlight{
-color: rgb(255, 183, 0);
+color: DodgerBlue;
 }
 .half-width{
     width: 40%;
@@ -16,4 +17,25 @@ color: rgb(255, 183, 0);
 img{
     width: 300px;
     height: 300px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 25px;
+    background-image: linear-gradient(DodgerBlue, Aquamarine);
+    color: black;
+    font-size:17px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
