@@ -1,12 +1,12 @@
 body{
     margin: 0%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 h1{
     font-size: 50;
 }
-.name-highlight{
-color: DodgerBlue;
+.dodgerBlue-highlight{
+    color: DodgerBlue;
 }
 .half-width{
     width: 40%;
@@ -25,6 +25,10 @@ img{
 section{
     height: 500px;
 }
+p{
+   color: rgb(21, 68, 75);
+  
+}
 .link-button{
     text-decoration: none;
     padding: 10px 25px;
@@ -38,4 +42,45 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.big-dream{
+    float: left;
+    width: 37%;
+    margin-left: 5%;
+    padding: 2%;
+}
+.download-button{
+    text-decoration: none;
+    padding: 10px 25px;
+    background-image: linear-gradient(DodgerBlue, Aquamarine);
+    color: black;
+    font-size:17px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-left: 7%;
+}
+.single-experiences{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 75%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(DodgerBlue, Aquamarine);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, lightsalmon);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+    font-size: 12px;
 }
